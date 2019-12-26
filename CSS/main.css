@@ -1,0 +1,63 @@
+@font-face{
+	src: url("../FUENTES/titulos.ttf");
+	font-family: "titulos";
+}
+@font-face{
+	src: url("../FUENTES/parrafos.ttf");
+	font-family: "parrafos";
+}
+#page{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    text-align: center;
+    margin-top: 80px;
+}
+body{
+    background-color: red;
+    font-family: "Parrafos";
+}
+.cabecera{
+    background-color: green;
+    text-align: right;
+}
+.cabecera img{
+    height: 35px;
+    width: 35px;
+    padding: 7px;
+    background-color: chartreuse;
+}
+.cabecera img:hover{
+    background-color: yellowgreen;
+}
+#menu{
+    background-color: gray;
+    width: 50%;
+    margin-left: -10px;
+    overflow: visible;
+    position: fixed;
+    margin-top: -130px;
+    opacity: 0.8;
+}
+.menu div{
+    width: calc(100% - 20px);
+    background-color: greenyellow;
+    padding: 10px;
+}
+.menu div:hover{
+    opacity: 0.8;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu_h1{
+    font-family: "Titulos";
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin:0px;
+    margin-top: 20px;
+    padding:0px;
+}
